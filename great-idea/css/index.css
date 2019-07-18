@@ -278,6 +278,7 @@ footer {
 .services-header-img {
 	display: flex;
 	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .bottom-section-services-page {
@@ -290,13 +291,14 @@ footer {
 	display: flex;
 	flex-direction: column;
 	max-width: 420px;
+	margin-top: 10px;
 }
 
 .container-two {
 	display: flex;
 	flex-direction: row;
 	margin-top: 10px;
-	margin-left: 25px;
+	margin-left: 35px;
 	margin-bottom: 15px;
 }
 
