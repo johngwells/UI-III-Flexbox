@@ -64,6 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.content {
+	max-width: 960px;
+	margin: auto;
+}
+
 h1 {
 	font-size: 80px;
 	text-align: center;
@@ -76,20 +81,18 @@ h2 {
 }
 
 hr {
-	width: 67%;
-	margin-left: 150px;
-	margin-right: auto;
+	width: 75%;
+	margin-left: -0px;
 }
 
 body {
-	margin: 0px 50px 0px 50px;
+	margin: 0px 100px 0px 100px;
 }
 
 .box-top {
 	display: flex;
 	flex-direction: row;
 	margin-top: 25px;
-	margin-left: 100px;
 }
 
 nav {
@@ -122,7 +125,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	margin-top: 15px;
-	margin-left: 170px;
 }
 
 /* Innovation on demand Box */
@@ -143,13 +145,6 @@ a {
 	border: 2px solid gray;
 }
 
-/* .box-section-one.box-content-one img {
-	display: flex;
-	flex-direction: row-reverse;
-	margin-left: 100px;
-	margin-bottom: 25px;
-} */
-
 /* Box Right with Image */
 .box-content-two {
 	display: flex;
@@ -168,14 +163,13 @@ a {
 .box-content-three {
 	display: flex;
 	flex-wrap: wrap;
-	width: 33%;
-	margin-left: 150px;
+	width: 45%;
 }
 
 .box-content-four {
 	display: flex;
 	flex-wrap: wrap;
-	width: 33%;
+	width: 45%;
 	margin-bottom: 15px;
 	margin-left: 10px;
 	margin-bottom: 10px;
@@ -186,7 +180,6 @@ a {
 	display: flex;
 	align-content: center;
 	margin-top: 15px;
-	margin-left: 150px;
 }
 /* Section Below Image Banner */
 
@@ -201,9 +194,8 @@ a {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 20%;
+	width: 28%;
 	margin-top: 15px;
-	margin-left: 150px;
 	margin-bottom: 10px;
 }
 
@@ -211,7 +203,7 @@ a {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 20%;
+	width: 28%;
 	margin-top: 15px;
 	margin-left: 40px;
 	margin-bottom: 10px;
@@ -222,7 +214,7 @@ a {
 	flex-direction: row;
 	flex-wrap: wrap;
 	margin-top: 15px;
-	width: 20%;
+	width: 28%;
 	margin-left: 40px;
 	margin-bottom: 10px;
 }
@@ -232,7 +224,6 @@ a {
 	flex-wrap: wrap;
 	flex-direction: column;
 	margin-top: 25px;
-	margin-left: 150px;
 }
 
 address {
@@ -242,4 +233,73 @@ address {
 footer {
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+/* Services Page */
+.top-section-services-page h1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.top-section-services-page {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+}
+
+/* Container For 6 Content Boxes */
+.middle-section-services-page-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	margin-left: 5px;
+}
+
+/* Makes middle boxes into columns */
+.middle-section-services-page-wrap>* {
+	flex: 1 1 450px;
+}
+
+/* 6 boxes single content layout */
+.middle-section-services-page {
+	display: flex;
+	flex-direction: column;
+	min-width: 200px;
+	max-width: 420px;
+	margin-top: 10px;
+	margin-right: 30px;
+	border: 1px solid gray;
+}
+
+.top-section-services-page h1 {
+	font-size: 40px;
+}
+
+.services-header-img {
+	display: flex;
+	margin-top: 15px;
+}
+
+.bottom-section-services-page {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 75%;
+}
+
+.container-one {
+	display: flex;
+	flex-direction: column;
+	max-width: 420px;
+}
+
+.container-two {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-bottom: 15px;
+}
+
+.bottom-section-services-page>* {
+	flex: 1 1 300px;
 }
