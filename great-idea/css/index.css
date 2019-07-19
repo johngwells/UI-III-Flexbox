@@ -269,6 +269,15 @@ footer {
 	border: 1px solid gray;
 }
 
+.middle-section-services-page p {
+	margin-left: 10px;
+}
+
+.middle-section-services-page h2 {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
 .top-section-services-page h1 {
 	font-size: 40px;
 }
@@ -312,6 +321,7 @@ footer {
 	margin-bottom: 10px;
 	margin-left: 15px;
 	justify-content: center;
+	border-radius: 5px;
 	/* align-items: baseline; */
 	/* text-align: center; */
 }
