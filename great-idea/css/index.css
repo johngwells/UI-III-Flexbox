@@ -97,12 +97,10 @@ body {
 
 nav {
 	display: flex;
-	flex-direction: row;
 	margin-top: 12px;
-	margin-left: 30px;
 }
 
-.box-top img{
+.box-top img {
 	display: flex;
 	flex-direction: row-reverse;
 	margin-left: 75px;
@@ -112,7 +110,7 @@ a {
 	font-size: 18px;
 	color: gray;
 	text-decoration: none;
-	margin-left: 30px;
+	margin-left: 50px;
 }
 
 /* Box for top section */
@@ -316,4 +314,8 @@ footer {
 	justify-content: center;
 	/* align-items: baseline; */
 	/* text-align: center; */
+}
+
+li {
+	list-style-type: square;
 }
