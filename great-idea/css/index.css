@@ -103,14 +103,15 @@ nav {
 .box-top img {
 	display: flex;
 	flex-direction: row-reverse;
-	margin-left: 75px;
+	margin-left: 40px;
 }
 
 a {
 	font-size: 18px;
 	color: gray;
 	text-decoration: none;
-	margin-left: 50px;
+	margin-right: 50px;
+	margin-left: 5px;
 }
 
 /* Box for top section */
@@ -123,6 +124,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	margin-top: 15px;
+	margin-left: 25px;
 }
 
 /* Innovation on demand Box */
@@ -242,6 +244,7 @@ footer {
 .top-section-services-page {
 	display: flex;
 	flex-direction: column;
+	margin-left: 10px;
 	width: 75%;
 }
 
