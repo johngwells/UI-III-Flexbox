@@ -132,7 +132,7 @@ a {
 /* Innovation on demand Box */
 .box-one {
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	margin-top: 30px;
 }
 
